@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("code.jpg");
+    background-size: 1500px;
+    background: no-repeat center cover;   
+}
+@font-face {
+    font-family: Robus;
+    src: url(Robus-BWqOd.otf);
+}
+@font-face {
+    font-family: debug;
+    src: url(DebugFreeTrial-MVdYB.otf);
+}
+@font-face {
+    font-family: point;
+    src: url(pointfree.ttf);
+}
+.nav a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(240, 34, 34);
+    font-family: debug;
+}
+h1{
+    text-align: center;
+    font-family: Robus;
+    color: rgb(255, 13, 13);
+    font-size: 40px;
+}
+.infos{
+    border: 2px solid rgb(44, 197, 77);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: point;
+    color: rgb(21, 35, 163);
+}
+.h3{
+    text-align: center;
+    font-family: point;
+    color: rgb(255, 13, 13);
+    font-size: 40px;
+}
+

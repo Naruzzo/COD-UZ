@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(download.png);
+    background-size: 1300px;
+}
+@font-face {
+    font-family: dust;
+    src: url(pointfree.ttf);
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+    font-family: dust;
+    font-size: 70px;
+}
+ul li{
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
+ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(137, 160, 53);
+}
+ul li a:hover{
+    color: blueviolet;
+    font-size: 40px;
+}
+.ah:hover{
+    color: blueviolet;
+    font-size: 80px;
+}
+.hruf{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(137, 160, 53);
+}
